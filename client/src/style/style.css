@@ -1,0 +1,108 @@
+.App{
+    height: 100vh;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFADD;
+}
+
+.books{
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+margin-bottom: 100px;
+}
+
+h2{
+  width: 230px;
+  height: 60px;
+}
+
+p{
+  width: 350px;
+  height: 150px;
+}
+span{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+button{
+  font-size: 20px;
+}
+
+.one-book{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    flex: 1;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    /* background-image: url(https://m.media-amazon.com/images/I/41Su1GeNc8L._SX389_BO1,204,203,200_.jpg); */
+}
+
+.delete-book{
+    text-decoration: none;
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+}
+
+.update-book{
+    text-decoration: none;
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid grey
+}
+
+a{
+  text-decoration: none;
+}
+
+.add-button{
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+}
+
+.form-button{
+    border: none;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
